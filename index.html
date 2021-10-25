@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--------------------------main starts---------------------------------------------->
+    <div class="main">
+      <!--Hearder start-->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#Home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#About" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#Projects" class="nav-item link-item">Projects</a>
+                  </li>
+                  <li>
+                    <a href="#Contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!--Hearder end-->
+
+      <!--Home section-->
+      <section class="home-section align-items-center active" id="Home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hey, I'm</p>
+              <h1>Rabia Khatun</h1>
+              <h2>Frontend Web Developer</h2>
+              <a href="#About" class="btn link-item">more about me</a>
+              <a href="#Projects" class="btn link-item">Projects</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Home Section end-->
+
+      <!--About section-->
+      <section class="about-section sec-padding" id="About">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>About me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="about-img" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                I'm a MCA final year Student working on Front-end Web
+                development from Hyderabad. I enjoy building interactive
+                responsive websites from scratch as well as WordPress sites.
+                From building a small game to a full responsive website, i know
+                how to utilize my skills and designing interest in making
+                website from user friendly. Being a Final year student actively
+                looking for good oppotunities to work with.
+              </p>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-items">HTML5</div>
+                <div class="skill-items">CSS</div>
+                <div class="skill-items">JavaScript</div>
+                <div class="skill-items">WordPress</div>
+                <div class="skill-items">Java</div>
+                <div class="skill-items">C</div>
+                <div class="skill-items">C++</div>
+                <div class="skill-items">DSA</div>
+                <div class="skill-items">GIT</div>
+                <div class="skill-items">Github</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  Education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  Experience
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#certification"
+                >
+                  Certification
+                </button>
+                <button type="button" class="tab-item" data-target="#interest">
+                  Interest
+                </button>
+              </div>
+
+              <!----------Education section-------->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2019 - Present</span>
+                    <h4>
+                      Master of Computer Application -
+                      <span>Maulana Azad National Urdu University</span>
+                    </h4>
+                    <p>
+                      Getting in-depth and extensive knowledge about various
+                      aspects of computer applications.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2015 - 2018</span>
+                    <h4>
+                      Bachelor of Computer Application -
+                      <span>Maulana Mazharul Haque University</span>
+                    </h4>
+                    <p>
+                      Pursued with an aggregate of 72% where learned core
+                      concepts of computer applications.
+                    </p>
+                  </div>
+                  <!-- <div class="timeline-item">
+                    <span class="date">2015 - 2018</span>
+                    <h4>
+                      Bachelor of Computer Application -
+                      <span>Maulana Mazharul Haque University</span>
+                    </h4>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Quam vitae officiis veritatis.
+                    </p>
+                  </div> -->
+                </div>
+              </div>
+              <!--Education End-->
+
+              <!--Experience Start-->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2020-2021</span>
+                    <h4>Web Developer - <span>Freelancer</span></h4>
+                    <p>
+                      Working as a Freelancer where developed a Photography
+                      website on WordPress.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--Experience End-->
+
+              <!--Certification Start-->
+              <div class="tab-content" id="certification">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <h4>Web Development - <span>Udemy</span></h4>
+                  </div>
+                  <div class="timeline-item">
+                    <h4>Diploma in Java Application - <span>ICETL</span></h4>
+                  </div>
+                  <div class="timeline-item">
+                    <h4>Data Entry Course - <span>Govt. Certified</span></h4>
+                  </div>
+                </div>
+              </div>
+              <!--Certification End-->
+
+              <!--Interest start-->
+              <div class="tab-content" id="interest">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <h4>Blogging</h4>
+                  </div>
+                  <div class="timeline-item">
+                    <h4>Exploring</h4>
+                  </div>
+                  <div class="timeline-item">
+                    <h4>Learning new things</h4>
+                  </div>
+                  <div class="timeline-item">
+                    <h4>Designing</h4>
+                  </div>
+                </div>
+              </div>
+              <!--Interest end-->
+
+              <a href="resume.pdf" target="_blank" class="btn">Download CV</a>
+              <a href="#Contact" class="btn link-item">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Portfolio Start-->
+      <section class="portfolio-section sec-padding" id="Projects">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Projects</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!------Portfolio Items starts------->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/dice.png" alt="dice game" />
+              </div>
+              <h3 class="portfolio-item-title">Dice Game</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    A small game where two players roll the dice simultaneously,
+                    the one who manages to score the winning point first will
+                    win the game. Dice rolling to 1 will let all the points be
+                    0.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>January 2021</span></li>
+                    <li>
+                      Technologies used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>
+                      View -
+                      <span
+                        ><a
+                          href="https://rabia808.github.io/dice_game/"
+                          target="_blank"
+                          >www.dicegame.com</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!------Portfolio Items ends------->
+
+            <!------Portfolio Items starts------->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/guess.png" alt="Guess My Number" />
+              </div>
+              <h3 class="portfolio-item-title">Guess My Number!</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    A game where random numbers are generated by the Computer
+                    and the player has to guess that number. when the number is
+                    guessed correctly the player will win.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>January 2021</span></li>
+                    <li>
+                      Technologies used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>
+                      View -
+                      <span
+                        ><a
+                          href="https://rabia808.github.io/Guess-My-Number/"
+                          target="_blank"
+                          >www.guessmynumber.com</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!------Portfolio Items ends------->
+
+            <!------Portfolio Items starts------->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/mapty.png" alt="Mapty WebApp" />
+              </div>
+              <h3 class="portfolio-item-title">Mapty</h3>
+              <button type="button" class="btn view-project-btn">
+                View Project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    A web to track the daily walking and cycling time and
+                    distance with the location using API.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>February 2021</span></li>
+                    <li>
+                      Technologies used -
+                      <span>HTML, CSS, JavaScript, APIs</span>
+                    </li>
+                    <li>
+                      View -
+                      <span
+                        ><a
+                          href="https://rabia808.github.io/mapAPI/"
+                          target="_blank"
+                          >www.mapty.com</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!------Portfolio Items ends------->
+          </div>
+        </div>
+      </section>
+      <!--Portfolio End-->
+
+      <!------Contact section start------>
+      <section class="portfolio-section sec-padding" id="Contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-img">
+              <img src="img/contact.svg" alt="contact-img" />
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>myself.rabia808@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Mobile</h3>
+                <p>7903887218</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100008703408525"
+                    target="-blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/rabia_rabsmallick/"
+                    target="-blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/rabia-khatun-808/"
+                    target="-blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/Rabia808" target="-blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="https://wa.me/7903887218" target="-blank"
+                    ><i class="fab fa-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://innovativebytes.blogspot.com/?m=1"
+                    target="-blank"
+                    ><i class="fab fa-blogger"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------Contact section end------>
+    </div>
+
+    <!-----POrtfolio item details popup start-->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img
+                src="img/dice.png
+              "
+                alt="Dice Game"
+              />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-----POrtfolio item details popup end-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
